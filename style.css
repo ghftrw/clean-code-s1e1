@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -135,7 +135,7 @@ input,button{
 }
 
 .menu__item > .item__text {
-  width: 226px
+  width: 226px;
 }
 
 .delete__image {
@@ -156,12 +156,12 @@ input,button{
 
 /* Edit Task */
 .menu__item .task[type=text] {
-  display: none
+  display: none;
 }
 
 .menu__item.edit-mode .task[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .menu__item.edit-mode .task {
