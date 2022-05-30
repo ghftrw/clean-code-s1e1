@@ -125,7 +125,7 @@ button{
   vertical-align: middle;
 }
 
-.menu__item__checkbox {
+.menu__item-checkbox {
   margin: 0 10px;
 }
 
@@ -136,7 +136,7 @@ button{
   width: 226px;
 }
 
-.menu__item__input {
+.menu__item-input {
   width: 226px;
 }
 
@@ -152,7 +152,7 @@ button{
 
 /* Completed */
 #completed-tasks 
-.menu__item__label {
+.menu__item-label {
   text-decoration: line-through;
   color: #888;
 }
