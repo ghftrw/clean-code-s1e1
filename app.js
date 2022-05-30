@@ -45,10 +45,10 @@ var createNewTaskElement=function(taskString){
     editInput.type="text";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className="menu__item__btn";
+    editButton.className="button";
     editButton.classList.add('edit');
 
-    deleteButton.className="menu__item__btn";
+    deleteButton.className="button";
     deleteButton.classList.add('delete');
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);

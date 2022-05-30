@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.add-task__wrapper{
   display: flex;
 }
 
@@ -59,8 +59,7 @@ button{
   outline: none;
 }
 
-.task-wrapper__btn,
-.menu__item__btn{
+.button{
   background: none;
   border: 0px;
   color: #888;
@@ -70,8 +69,7 @@ button{
   cursor: pointer;
 }
 
-.task-wrapper__btn:hover,
-.menu__item__btn:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
